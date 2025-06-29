@@ -1,41 +1,24 @@
-# Prerequisites
-*.d
+# Ignore all big Yocto build output folders
+build/tmp/
+build/sstate-cache/
+build/downloads/
+build/cache/
+build/work/
+build/tmp-glibc/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore any generated SDK or toolchains
+tmp/deploy/sdk/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore editor/OS junk
+*.swp
+*.swo
+*.DS_Store
+*.log
+*.tar.bz2
+*.wic
+*.ext4
+*.zip
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Node/IDE stuff if any
+.vscode/
+.idea/
