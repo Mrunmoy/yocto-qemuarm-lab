@@ -1,6 +1,6 @@
 # Yocto Build on Google Cloud — Full Walkthrough
 
-This guide documents how I set up a free Google Cloud VM, installed Yocto, built an image, and ran it on QEMU for ARM.  
+This guide documents how I set up a free Google Cloud VM, installed Yocto, built an image, and ran it on QEMU for ARM.
 It includes **clear steps and screenshots** you can follow.
 
 ---
@@ -52,7 +52,7 @@ In your Google Cloud Console, go to **Compute Engine → VM Instances**.
 
 ### Step 2: See your VM list
 
-Once Compute Engine is enabled, you’ll see all your VM instances.  
+Once Compute Engine is enabled, you’ll see all your VM instances.
 Click **“Create Instance”** to make a new VM.
 
 ![VM Instances overview](screenshots/Screenshot_2025-06-30_092038.png)
@@ -89,7 +89,7 @@ For your boot disk, pick:
 
 ### Step 5: Launch your VM & connect
 
-Once it’s created, you’ll see your new VM in the list with its external IP.  
+Once it’s created, you’ll see your new VM in the list with its external IP.
 Click **SSH** to connect directly in your browser.
 
 ![Connect to VM over SSH](screenshots/Screenshot_2025-06-30_091926.png)
@@ -101,8 +101,8 @@ Click **SSH** to connect directly in your browser.
 
 ### Tips
 
-✅ **Allow HTTP/HTTPS traffic** if you need to download packages.  
-✅ Monitor your cost — shut down the VM when done.  
+✅ **Allow HTTP/HTTPS traffic** if you need to download packages.
+✅ Monitor your cost — shut down the VM when done.
 ✅ Pin Compute Engine in the Cloud Hub for quick access.
 
 ![Pinned Compute Engine in Cloud Hub](screenshots/Screenshot_2025-06-30_095200.png)
@@ -282,7 +282,7 @@ runqemu qemuarm core-image-sato nographic
 Always use nographic on servers without a GUI.
 
 
-### *More Screenshots:*: 
+### *More Screenshots:*:
 
 Starting QEMU in headless mode
 
