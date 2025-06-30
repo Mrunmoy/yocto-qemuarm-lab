@@ -192,6 +192,7 @@ For QEMU testing, you can stick with:
 MACHINE ?= "qemuarm"
 ```
 This means you’ll build for a generic ARM machine emulated by QEMU.
+Comment out the `MACHINE ??= "qemux86-64"` line in the same file so this is the only default.
 
 ### Step 2: Start the build!
 ```bash
