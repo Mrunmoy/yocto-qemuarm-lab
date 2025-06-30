@@ -163,6 +163,10 @@ git clone git://git.yoctoproject.org/poky
 cd poky
 ```
 
+Ensure the `poky` directory is located alongside your `build/` folder. The
+`conf/bblayers.conf` in this repo expects `${TOPDIR}/../poky` to resolve to the
+Poky sources.
+
 ### Step 3: Check out a stable branch
 ```bash
 git checkout kirkstone
